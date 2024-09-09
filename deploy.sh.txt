@@ -1,0 +1,10 @@
+#!/bin/bash
+# Build and deploy script
+echo "Deploying website..."
+
+# Commit changes
+git add .
+git commit -m "Deploy updates"
+git push origin main
+
+# Additional deployment steps if needed
